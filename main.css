@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner {
+    max-width: 100%;
+    background: rgb(17, 114, 27);
+    display: flex;
+    box-sizing: content-box;
+    justify-content: space-between;
+    height: 80px;
+    position: sticky;
+    
+}
+
+.logo-l {
+    
+    display: flex;
+    padding: 1.8rem;
+    
+}
+
+.logo-l h3 {
+    text-transform: uppercase;
+    color: #ffffff;
+    
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 1.5rem;
+    font-size: 18px;
+    
+}
+
+.menu :hover {
+    color: #9f9f9f;
+}
+
+.menu li {
+    margin: 0 1rem
+}
+
+.menu li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.photo {
+   background: url('https://images.unsplash.com/photo-1713971346394-6030222f7ca2?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+   background-size: cover; 
+   background-position: center;
+   height: 500px;   
+   
+   
+   
+    
+}
+
+.font-photo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 16rem;
+    
+}
+
+.font-photo h3 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #f4cc54;
+}
+
+.font-photo  :hover {
+    color: bisque;
+}
+
+.headd {
+    text-align: center;
+    margin: 50px 30px;
+    
+}
+
+.headd h3 {
+    font-size: 35px;
+}
+
+
+
+.headdd {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-top: -40px;
+    padding-bottom: 50px;
+}
+
+.headdd img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin-right: 20px;
+
+}
+
+.headdd p {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #606060;
+}
+
+
+
+.ph-detail {  
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    
+}
+
+.text-ph {
+    align-items: center;
+    padding: 40px 50px;
+    font-size: 20px;
+}
+
+
+.ph-detail1 {
+   display: flex;
+   justify-content: center;
+   height: 450px;
+    
+}
+
+.text-ph1 {
+
+    align-items: center;
+    padding: 40px 50px;
+
+}
+
+
+.text-ph1 h3 {
+    text-align: center;
+    margin: 10px 0;
+    color: #606060;
+    text-transform: uppercase;
+}
+
+.text-ph1 p {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+
+
+.last {
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(255, 255, 255);
+}
+
+.gn-last {
+    max-width: 100%;
+    background: rgb(17, 114, 27);
+    display: grid;
+    box-sizing: content-box;
+    
+    height: 50px;
+    
+}
